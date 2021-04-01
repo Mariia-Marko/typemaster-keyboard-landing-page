@@ -1,0 +1,21 @@
+.header {
+    @include flexiblePlacement(space-between, none, none, none);
+
+    &__logo {
+        background: url(../img/header/logo.svg) no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+
+    &__button {
+        background: #E8EFF2;
+        border-radius: 8px;
+        text-transform: uppercase;
+        padding: 1em 1.7em;
+        border: none;
+        font-family: 'Barlow', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+}
