@@ -29,6 +29,98 @@
         line-height: 26px;
     }
     
+    &__title {
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: #162542;
+    }
+
+    &__button-section {
+        @include flexiblePlacement(space-between, none, none, none);
+
+    }
+
+    &__text-left {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #7B8BAD;
+        margin: 24px 0 40px;
+        display: block;
+        max-width: 445px;
+    }
+
+    &__button {
+        background: #F16718;
+        border-radius: 8px;
+        text-transform: uppercase;
+        padding: 1em 1.7em;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        margin-right: 40px;
+    }
+
+    &__button:hover {
+        background: #FF9B62;
+        color: white;
+    }
+
+    &__button-span {
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #7B8BAD;
+        font-weight: bold;
+    }
+
+    &__button-section__img {
+        background: url(../img/main/keyboard-black-img.svg) no-repeat;
+        width: 540px;
+        height: 480px;
+    }
+
+    &__button-section {
+        @include flexiblePlacement(none, center, none, none);
+    }
+
+    &__intro__img:nth-child(1) {
+        background: url(../img/main/phone-keyboard-icon.svg) no-repeat;
+        width: 255px;
+        height: 480px;
+    }
+
+    &__intro__img:nth-child(2) {
+        background: url(../img/main/computer-keyboard-img.svg) no-repeat;
+        width: 445px;
+        height: 480px;
+        margin: 0 150px 0 0;
+    }
+
+    &__intro-row {
+        @include flexiblePlacement(space-between, center, none, none);
+        margin: 30px 0 145px ;
+    }
+
+    &__subtitle {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #162542;
+    }
+
+    &__text-right {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B8BAD;
+        max-width: 260px;
+        display: block;
+    }
 }
 
 .img-monitor {

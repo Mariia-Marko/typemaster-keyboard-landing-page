@@ -15,5 +15,11 @@
         border: none;
         font-size: 16px;
         font-weight: 600;
+        color: #162542;
+    }
+
+    &__button:hover {
+        background: #162542;
+        color: white;
     }
 }

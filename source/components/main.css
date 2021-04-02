@@ -186,6 +186,12 @@ body {
   border: none;
   font-size: 16px;
   font-weight: 600;
+  color: #162542;
+}
+
+.header__button:hover {
+  background: #162542;
+  color: white;
 }
 
 .main {
@@ -246,6 +252,140 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+}
+
+.main__title {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.main__button-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+}
+
+.main__text-left {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7B8BAD;
+  margin: 24px 0 40px;
+  display: block;
+  max-width: 445px;
+}
+
+.main__button {
+  background: #F16718;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding: 1em 1.7em;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-right: 40px;
+}
+
+.main__button:hover {
+  background: #FF9B62;
+  color: white;
+}
+
+.main__button-span {
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7B8BAD;
+  font-weight: bold;
+}
+
+.main__button-section__img {
+  background: url(../img/main/keyboard-black-img.svg) no-repeat;
+  width: 540px;
+  height: 480px;
+}
+
+.main__button-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+}
+
+.main__intro__img:nth-child(1) {
+  background: url(../img/main/phone-keyboard-icon.svg) no-repeat;
+  width: 255px;
+  height: 480px;
+}
+
+.main__intro__img:nth-child(2) {
+  background: url(../img/main/computer-keyboard-img.svg) no-repeat;
+  width: 445px;
+  height: 480px;
+  margin: 0 150px 0 0;
+}
+
+.main__intro-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+  margin: 30px 0 145px;
+}
+
+.main__subtitle {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.main__text-right {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7B8BAD;
+  max-width: 260px;
+  display: block;
 }
 
 .img-monitor {
