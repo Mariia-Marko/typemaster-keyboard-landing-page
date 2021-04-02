@@ -1,0 +1,56 @@
+.main {
+    margin: 83px 0 128px;
+
+    &__list {
+        @include flexiblePlacement(none, none, none, none);
+    }
+
+    &__item {
+        @include flexiblePlacement(none, none, column, none);
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__item__title {
+        color: #162542;
+        font-size: 24px;
+        font-weight: 900;
+        margin: 48px 0 24px;
+        line-height: 28px;
+        padding-right: 100px;
+    }
+
+    &__item__text {    
+        color: #7B8BAD;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+}
+
+.img-monitor {
+    background: url(../img/main/monitor-icon.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+.img-bluetooth {
+    background: url(../img/main/bluetooth-icon.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+.img-battery {
+    background: url(../img/main/battery-icon.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+.img-lamp {
+    background: url(../img/main/lamp-icon.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}

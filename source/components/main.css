@@ -148,10 +148,10 @@ body {
           flex-direction: column;
   -ms-flex-wrap: none;
       flex-wrap: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400px;
   width: 78%;
-  padding-top: 55px;
+  padding: 55px 0 39px;
 }
 
 .header {
@@ -184,8 +184,120 @@ body {
   text-transform: uppercase;
   padding: 1em 1.7em;
   border: none;
-  font-family: 'Barlow', sans-serif;
   font-size: 16px;
+  font-weight: 600;
+}
+
+.main {
+  margin: 83px 0 128px;
+}
+
+.main__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+}
+
+.main__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+}
+
+.main__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.main__item__title {
+  color: #162542;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 48px 0 24px;
+  line-height: 28px;
+  padding-right: 100px;
+}
+
+.main__item__text {
+  color: #7B8BAD;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.img-monitor {
+  background: url(../img/main/monitor-icon.svg) no-repeat;
+  width: 65px;
+  height: 65px;
+}
+
+.img-bluetooth {
+  background: url(../img/main/bluetooth-icon.svg) no-repeat;
+  width: 65px;
+  height: 65px;
+}
+
+.img-battery {
+  background: url(../img/main/battery-icon.svg) no-repeat;
+  width: 65px;
+  height: 65px;
+}
+
+.img-lamp {
+  background: url(../img/main/lamp-icon.svg) no-repeat;
+  width: 65px;
+  height: 65px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+}
+
+.footer__copyright {
+  color: #7B8BAD;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.color-text {
+  color: #7B8BAD;
   font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */

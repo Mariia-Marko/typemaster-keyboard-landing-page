@@ -9,13 +9,13 @@ body {
 .wrapper {
     margin: 0 auto;
     @include flexiblePlacement(none, none, column, none);
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 400px;
     width: 78%;
-    padding-top: 55px;
+    padding: 55px 0 39px;
 }
 
 @import './header';
-// @import './main';
-// @import './footer';
+@import './main';
+@import './footer';
 @import './config/media';

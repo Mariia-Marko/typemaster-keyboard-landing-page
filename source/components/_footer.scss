@@ -1,0 +1,15 @@
+.footer {
+    @include flexiblePlacement(center, center, none, none);
+
+
+    &__copyright {
+        color: #7B8BAD;
+        font-weight: 300;
+        font-size: 16px;
+    }
+}
+
+.color-text {
+    color: #7B8BAD;
+    font-weight: bold;
+}
